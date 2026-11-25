@@ -1,0 +1,57 @@
+:root {
+  /* Concept A Refresh — Sunlit Ceramic & Risograph Studio */
+  --bg-alabaster: #FBF7EE;
+  --surface-paper: #FFFDF8;
+  --surface-tinted: #F5ECDD;
+  --surface-glass: rgba(255, 253, 248, 0.78);
+  --shadow-travertine: #D9CFC0;
+  --ink-charcoal: #181A1F;
+  --ink-muted: #4E5360;
+  --ink-subtle: #787E8C;
+
+  /* Playful Matte Studio Accents */
+  --accent-vermilion: #FF5A36;
+  --accent-vermilion-soft: rgba(255, 90, 54, 0.12);
+  --accent-marigold: #F6B73C;
+  --accent-marigold-soft: rgba(246, 183, 60, 0.16);
+  --accent-cobalt: #2F6BFF;
+  --accent-cobalt-soft: rgba(47, 107, 255, 0.12);
+  --accent-mint: #2AB38B;
+  --accent-mint-soft: rgba(42, 179, 139, 0.12);
+
+  --border-hairline: rgba(24, 26, 31, 0.1);
+  --border-strong: rgba(24, 26, 31, 0.22);
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --text-hero: clamp(2.2rem, 4.1vw, 3.65rem);
+  --text-section: clamp(1.75rem, 3.1vw, 2.6rem);
+  --text-title: clamp(1.12rem, 1.45vw, 1.35rem);
+  --text-body: clamp(0.95rem, 1.05vw, 1.04rem);
+  --text-caption: clamp(0.74rem, 0.85vw, 0.8125rem);
+
+  /* Spacing & Layout */
+  --nav-height: 64px;
+  --page-gutter: clamp(1.25rem, 4.2vw, 3.75rem);
+  --section-py: clamp(4.25rem, 7.5vh, 6.5rem);
+  --editorial-max: clamp(430px, 41vw, 560px);
+
+  /* Architectural & Playful Radii */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-pill: 999px;
+
+  /* Sunlit Elevation */
+  --shadow-paper: 0 2px 8px rgba(42, 34, 24, 0.05), 0 18px 42px -20px rgba(42, 34, 24, 0.14);
+  --shadow-paper-hover: 0 6px 18px rgba(42, 34, 24, 0.08), 0 24px 48px -20px rgba(42, 34, 24, 0.18);
+
+  /* Motion */
+  --ease-atelier: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.22, 1.18, 0.36, 1);
+  --dur-fast: 180ms;
+  --dur-mid: 420ms;
+}
